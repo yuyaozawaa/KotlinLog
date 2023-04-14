@@ -9,11 +9,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val person1 = Human("山田太郎",25)
+        val person1 = Human("山田太郎",25,"サッカー")
         person1.say()
+        person1.think()
 
 
-        val person2 = Human(hobby = "サッカー")
+        val person2 = Human("山田花子",10,"ランニング")
+        person2.say()
         person2.think()
 
 
