@@ -2,7 +2,7 @@ package jp.techacademy.yuya.ozawa.kotlinlog
 
 import android.util.Log
 
-class Human(name: String = "山田太郎", age: Int =25 , val hobby: String = "サッカー") : Animal(name, age),
+class Human(name: String = "", age: Int =0 , val hobby: String = "") : Animal(name, age),
     Thinkable {
 
     override fun say() {
